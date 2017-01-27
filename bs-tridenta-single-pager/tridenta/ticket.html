@@ -40,8 +40,8 @@
             </div>
             <div class="navbar-collapse collapse" data-scrollreveal="enter from the right 50px">
                 <ul class="nav navbar-nav">
-                    <li class=""><a href="">Home</a></li><!-- menu links-->
-                    <li><a href="ticket.html">Ticket aufgeben</a></li>  
+                    <li class=""><a href="index.html">Home</a></li><!-- menu links-->
+                    <li><a href="#">Ticket aufgeben</a></li>  
                     <li><a href="login.html">Anmeldung</a></li>
                 </ul>
             </div>
@@ -52,34 +52,43 @@
 
     <!--PAGE CONTENT--> 
     <!-- HOMEPAGE SECTION-->  
+	
+		<div class="col-md-8">
+                    <div  id="contact-form" >
 
-    <section id="Homepage">
-        <div class="container">
-            <div class="row">
-                <div data-scrollreveal="wait 0.5s and then ease-in-out 50px" class="col-md-6 col-md-offset-3">
-
-                    <div class="align-center">
-                        <h2 class="main-text">WELCOME TO TROUBLETICKET GmbH</h2>
-
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div data-scrollreveal="enter from the left 500px" class="col-md-6 col-md-offset-3">
-
-                    <div class="align-center">
-                        <div class="col-md-12 align-center">
-                            <div class="hi-icon-effect-9 hi-icon-effect-9a">
-                                <a href="ticket.html" class="hi-icon  hi-icon-screen"></a>
-                                <a href="login.html" class="hi-icon  hi-icon-user"></a>
-                                <a href="#section-services" class="hi-icon hi-icon-cog"></a>
+                       
+                            <div class="col-md-6 form-group">
+                                <label for="vn">Vorname</label>
+                                <input type="text" name="vn" class="form-control" id="vn" placeholder="Vorname"  />
+                                
                             </div>
-                            <br />
-                        </div>
+                            <div class="col-md-6 form-group">
+                                <label for="nn">Nachname</label>
+                                <input type="text" class="form-control" name="nn" id="nn" placeholder="Nachname"  />
+                               
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label for="subject">Kategorie (Auswahl SW/HW)</label>
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"  />
+                               
+                            </div>
+							<div class="col-md-12 form-group">
+                                <label for="rnr">Raumnummer</label>
+                                <input type="text" class="form-control" name="rnr" id="rnr" placeholder="Raumnummer"  />
+                               
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label >Problembeschreibung</label>
+                                <textarea class="form-control" name="message" rows="5" ></textarea>
+                               
+                            </div>
+
+                            <button type="submit" style="height: 40px; margin-bottom: 50px;" class="col-md-offset-4 col-md-4 btn btn-primary">TICKET ABSCHICKEN</button>
+                        
+
                     </div>
                 </div>
-            </div>
-        </div>
+		</div>
     </section>
      <!--END HOMEPAGE SECTION-->
 

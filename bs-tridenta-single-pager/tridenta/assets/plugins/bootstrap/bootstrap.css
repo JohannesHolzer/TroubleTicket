@@ -1234,6 +1234,7 @@ pre code {
     margin-left: 16.666666666666664%;
   }
   .col-md-offset-1 {
+	clear: left;
     margin-left: 8.333333333333332%;
   }
   .col-md-offset-0 {
@@ -1693,7 +1694,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #555;
+  color: #555; 
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
